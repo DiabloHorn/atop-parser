@@ -10,11 +10,15 @@ Command:
 
 `python atopdump.py 27 example_data/v2.7/atop_20221111` 
 
-Output: 
+Output (line breaks for clarity only): 
 
-`{"rawheader": {"magic": 4276993775, "aversion": 33287, "future1": 0, "future2": 0, "rawheadlen": 480, "rawreclen": 96, "hertz": 100, "sfuture": [0, 0, 0, 0, 0,}
-{"rawrecord": {"curtime": 1668196310, "flags": 49, "sfuture": [0, 0, 0], "scomplen": 1520, "pcomplen": 6786, "interval": 66, "ndeviat": 174, "nactproc": 134, "}
-{"tstat": {"gen": {"tgid": 1, "pid": 1, "ppid": 0, "ruid": 0, "euid": 0, "suid": 0, "fsuid": 0, "rgid": 0, "egid": 0, "sgid": 0, "fsgid": 0, "nthr": 1, "name":}
-{"tstat": {"gen": {"tgid": 2, "pid": 2, "ppid": 0, "ruid": 0, "euid": 0, "suid": 0, "fsuid": 0, "rgid": 0, "egid": 0, "sgid": 0, "fsgid": 0, "nthr": 1, "name":}
+`{"rawheader": {"magic": 4276993775, "aversion": 33287, "future1": 0, "future2": 0, "rawheadlen": 480, "rawreclen": 96, "hertz": 100, "sfuture": [0, 0, 0, 0, 0,} 
+
+{"rawrecord": {"curtime": 1668196310, "flags": 49, "sfuture": [0, 0, 0], "scomplen": 1520, "pcomplen": 6786, "interval": 66, "ndeviat": 174, "nactproc": 134, "} 
+
+{"tstat": {"gen": {"tgid": 1, "pid": 1, "ppid": 0, "ruid": 0, "euid": 0, "suid": 0, "fsuid": 0, "rgid": 0, "egid": 0, "sgid": 0, "fsgid": 0, "nthr": 1, "name":} 
+
+{"tstat": {"gen": {"tgid": 2, "pid": 2, "ppid": 0, "ruid": 0, "euid": 0, "suid": 0, "fsuid": 0, "rgid": 0, "egid": 0, "sgid": 0, "fsgid": 0, "nthr": 1, "name":} 
+
 {"tstat": {"gen": {"tgid": 3, "pid": 3, "ppid": 2, "ruid": 0, "euid": 0, "suid": 0, "fsuid": 0, "rgid": 0, "egid": 0, "sgid": 0, "fsgid": 0, "nthr": 1, "name":}
 `
