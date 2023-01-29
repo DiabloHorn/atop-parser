@@ -1,5 +1,5 @@
 # ATOP binary log parser for forensic purposes
-This is a partial implementation of parsing ATOP binary log files with python. It uses the `dissect.cstruct` library which makes life worth living for if you want to work with C structures in python.
+This is a partial implementation of parsing ATOP binary log files with python. It uses the `dissect.cstruct` library which makes life worth living for if you want to work with C structures in python. The Dissect Target [ATOP plugin](https://github.com/fox-it/dissect.target/pull/108) was created based on this parser.
 
 Feel free to add example data and update the code. Only reason this is licensed as AGPL is due to the original license of `dissect.cstruct`. Do let me know if it is NOT necessary to license this code as AGPL, since I'm not a big fan of this license.
 
